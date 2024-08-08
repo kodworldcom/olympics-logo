@@ -1,0 +1,53 @@
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ring-container {
+  transform-style: preserve-3d;
+  width: 120vh;
+  height: 50vh;
+  position: relative;
+}
+
+.ring {
+  width: 30vh;
+  height: 30vh;
+  border-radius: 50%;
+  border: 3vh solid blue;
+  position: absolute;
+  background: transparent;
+}
+
+.blue {
+  border-color: #0085c7;
+  transform: rotateX(-45deg) scaleY(1.5);
+}
+
+.yellow {
+  border-color: #f4c300;
+  left: 21vh;
+  top: 13vh;
+}
+
+.black {
+  border-color: black;
+  left: 42vh;
+  transform: rotateX(45deg) scaleY(1.5);
+}
+
+.green {
+  border-color: #009f3d;
+  top: 13vh;
+  left: 63vh;
+  transform: translateZ(15vh) rotateX(70deg) scaleY(3);
+}
+
+.red {
+  border-color: #df0024;
+  left: 84vh;
+  transform: translateZ(-25vh) rotateX(80deg) scaleY(5.75);
+}
